@@ -21,4 +21,4 @@ Welcome to ZodiMatch – the ✨ fun and interactive web app ✨ that reveals yo
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/zodimatch.git
+   git clone https://github.com/elfaz19/zodimatch.git
