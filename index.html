@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZodiMatch - Zodiac & Personality Matcher ✨</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>🔮 ZodiMatch <br><span>Find Your Zodiac & Personality</span></h1>
+
+      <div class="form">
+        <input type="text" id="fullName" placeholder="Enter your full name 🧑‍💼" />
+        <input type="date" id="birthDate" />
+        <button id="analyzeBtn">Analyze 🔍</button>
+      </div>
+
+      <div id="result" class="hidden">
+        <p id="zodiacSign">♈ Zodiac Sign: </p>
+        <p id="traits">✨ Personality Traits: </p>
+        <p id="compatibility">💞 Most Compatible With: </p>
+        <button id="generateCardBtn">🎨 Generate Card</button>
+        <button id="downloadBtn">📥 Download Card</button>
+        <canvas id="zodiacCanvas" class="hidden"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
